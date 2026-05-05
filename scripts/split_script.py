@@ -4,8 +4,8 @@ import random
 from pathlib import Path
 
 # ── Paths ──────────────────────────────────────────────────────────────────
-labeled_dir = Path(r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\data\labeled")
-output_dir  = Path(r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\data\split")
+labeled_dir = Path(r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\data\labeled") #change this path acc. to ur folder after git pull
+output_dir  = Path(r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\data\split")  #change this path acc. to ur folder after git pull
 
 # ── Split ratios ───────────────────────────────────────────────────────────
 TRAIN_RATIO = 0.80
