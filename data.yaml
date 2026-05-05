@@ -1,0 +1,17 @@
+# PCB Defect Detection - YOLO Dataset Config
+
+path: C:/Users/vagee/OneDrive/Desktop/major project/pcb-defect-detection/data/split
+
+train: train/images
+val:   val/images
+test:  test/images
+
+nc: 6  # number of classes
+
+names:
+  0: missing_hole
+  1: mouse_bite
+  2: open_circuit
+  3: short
+  4: spur
+  5: spurious_copper

@@ -12,8 +12,8 @@ CLASS_MAP = {
     6: 5   # spurious_copper
 }
 
-pcb_data = Path(r"C:\Users\Admin\pcb-defect-detection\data\raw\DeepPCB\PCBData")
-output_dir = Path(r"C:\Users\Admin\pcb-defect-detection\data\labeled")
+pcb_data = Path(r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\data\raw\DeepPCB\PCBData") #change this path acc. to ur folders after git pull
+output_dir = Path(r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\data\labeled") #change this path acc. to ur folders after git pull
 output_dir.mkdir(exist_ok=True)
 
 converted = 0
