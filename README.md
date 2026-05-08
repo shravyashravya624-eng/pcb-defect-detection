@@ -8,9 +8,9 @@ Missing Hole · Mouse Bite · Open Circuit · Short Circuit · Spur · Spurious 
 ## Project status
 | Phase | Name            | Status      |
 |-------|-----------------|-------------|
-| 0     | Foundation      | In progress |
-| 1     | Dataset         | Not started |
-| 2     | AI Training     | Not started |
+| 0     | Foundation      | Completed   |
+| 1     | Dataset         | Completed.  |
+| 2     | AI Training     | In progress |
 | 3     | FPGA Setup      | Not started |
 | 4     | FPGA Deployment | Not started |
 | 5     | Integration     | Not started |
