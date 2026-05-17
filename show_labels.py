@@ -1,8 +1,8 @@
 import cv2, random
 from pathlib import Path
 
-IMG_DIR = Path("data/labeled/train/images")
-LBL_DIR = Path("data/labeled/train/labels")
+IMG_DIR = Path(r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\data\labeled")
+LBL_DIR = Path(r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\data\labeled")
 
 CLASSES = ['Missing_hole', 'Mouse_bite', 'Open_circuit', 
            'Short', 'Spur', 'Spurious_copper']

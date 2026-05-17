@@ -1,7 +1,8 @@
 import cv2
 from pathlib import Path
+#generates random 3 images to verify the labelling is proper
 
-labeled = Path(r"C:\Users\Admin\pcb-defect-detection\data\labeled")
+labeled = Path(r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\data\labeled")
 imgs = list(labeled.glob("*_test.jpg"))[:3]
 
 classes = ["missing_hole","mouse_bite","open_circuit","short","spur","spurious_copper"]
