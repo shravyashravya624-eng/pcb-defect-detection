@@ -9,8 +9,8 @@ from ultralytics import YOLO
 # ── Config ─────────────────────────────────────────────────────────────────
 MODEL_PATH   = r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\runs\pcb_yolov8m_v2\weights\best.pt"
 TEST_IMAGES  = r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\data\split\test\images"
-PHONE_IP     = "http://10.238.202.94:8080//video"   # change to your IP Webcam IP
-CONF         = 0.50
+PHONE_IP     = "http://10.117.151.147:8080//video"   # change to your IP Webcam IP
+CONF         = 0.7
 IMGSZ        = 640
 
 CLASSES = ['missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper']
@@ -131,7 +131,7 @@ def demo_live(source):
 
             # Step 3 - Otsu threshold (auto finds best threshold)
             _, binary = cv2.threshold(enhanced, 0, 255,
-                                      cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+                                      cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)
 
             input_frame = cv2.cvtColor(binary, cv2.COLOR_GRAY2BGR)
         else:
