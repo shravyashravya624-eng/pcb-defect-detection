@@ -1,6 +1,6 @@
 # PCB Defect Detection - YOLO Dataset Config
 
-path: C:/Users/vagee/OneDrive/Desktop/major project/pcb-defect-detection/data/split
+path: /mnt/c/Users/vagee/OneDrive/Desktop/major project/pcb-defect-detection/data/split
 
 train: train/images
 val:   val/images

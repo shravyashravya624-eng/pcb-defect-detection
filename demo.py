@@ -9,9 +9,9 @@ from ultralytics import YOLO
 # ── Config ─────────────────────────────────────────────────────────────────
 MODEL_PATH   = r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\runs\pcb_yolov8m_v2\weights\best.pt"
 TEST_IMAGES  = r"C:\Users\vagee\OneDrive\Desktop\major project\pcb-defect-detection\data\split\test\images"
-PHONE_IP     = "http://10.117.151.147:8080//video"   # change to your IP Webcam IP
+PHONE_IP     = "http://192.0.0.2:8080//video"   # change to your IP Webcam IP
 CONF         = 0.7
-IMGSZ        = 640
+IMGSZ        = 512
 
 CLASSES = ['missing_hole', 'mouse_bite', 'open_circuit', 'short', 'spur', 'spurious_copper']
 COLORS  = {
