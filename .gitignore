@@ -7,7 +7,6 @@ models/checkpoints/
 models/exports/
 *.pt
 *.onnx
-*.xmodel
 *.pth
 __pycache__/
 *.pyc
@@ -32,4 +31,3 @@ quantize_result/deploy_check_data_int/
 runs/*/weights/*.pt
 models/*.pt
 *.onnx
-*.xmodel
