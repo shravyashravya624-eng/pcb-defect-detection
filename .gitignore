@@ -24,4 +24,5 @@ logs/
 _x/
 build/
 .DS_Store
-Thumbs.db
+Thumbs.dbquantize_result/deploy_check_data_int/
+mintty.exe.stackdump
