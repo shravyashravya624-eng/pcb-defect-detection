@@ -27,3 +27,9 @@ build/
 Thumbs.dbquantize_result/deploy_check_data_int/
 mintty.exe.stackdump
 quantize_result/deploy_check_data_int/
+# Large generated files - do not commit
+quantize_result/deploy_check_data_int/
+runs/*/weights/*.pt
+models/*.pt
+*.onnx
+*.xmodel
