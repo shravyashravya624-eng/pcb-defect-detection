@@ -10,8 +10,8 @@ Missing Hole · Mouse Bite · Open Circuit · Short Circuit · Spur · Spurious 
 |-------|-----------------|-------------|
 | 0     | Foundation      | Completed   |
 | 1     | Dataset         | Completed   |
-| 2     | AI Training     | In progress |
-| 3     | FPGA Setup      | Not started |
+| 2     | AI Training     | Completed   |
+| 3     | FPGA Setup      | In progress |
 | 4     | FPGA Deployment | Not started |
 | 5     | Integration     | Not started |
 | 6     | Testing         | Not started |
