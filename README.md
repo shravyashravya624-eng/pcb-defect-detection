@@ -1,6 +1,6 @@
 # PCB Defect Detection — FPGA Accelerated
 
-AI-powered PCB quality inspection using YOLOv8 and Xilinx KV260 FPGA.
+AI-powered PCB quality inspection using YOLOv8 and AMD Xilinx Zynq UltraScale+ MPSoC FPGA.
 
 ## Defect classes
 Missing Hole · Mouse Bite · Open Circuit · Short Circuit · Spur · Spurious Copper
