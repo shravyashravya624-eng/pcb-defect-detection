@@ -1,0 +1,21 @@
+[UNILOG][INFO] Compile mode: dpu
+[UNILOG][INFO] Debug mode: null
+[UNILOG][INFO] Target architecture: DPUCZDX8G_ISA1_B4096_0101000016010407
+[UNILOG][INFO] Graph name: QuantWrapper, with op num: 674
+[UNILOG][INFO] Begin to compile...
+[0;33m[UNILOG][WARNING] xir::Op{name = QuantWrapper__QuantWrapper_DetectionModel_model__Detect_model__Detect_22__Sequential_cv2__ModuleList_2__Conv2d_2__ret_555_sink_transpose_2, type = transpose} has been assigned to CPU.
+[m[0;33m[UNILOG][WARNING] xir::Op{name = QuantWrapper__QuantWrapper_DetectionModel_model__Detect_model__Detect_22__Sequential_cv3__ModuleList_2__Conv2d_2__ret_605_sink_transpose_5, type = transpose} has been assigned to CPU.
+[m[0;33m[UNILOG][WARNING] xir::Op{name = QuantWrapper__QuantWrapper_DetectionModel_model__Detect_model__Detect_22__Sequential_cv2__ModuleList_1__Conv2d_2__ret_539_sink_transpose_1, type = transpose} has been assigned to CPU.
+[m[0;33m[UNILOG][WARNING] xir::Op{name = QuantWrapper__QuantWrapper_DetectionModel_model__Detect_model__Detect_22__Sequential_cv3__ModuleList_1__Conv2d_2__ret_589_sink_transpose_4, type = transpose} has been assigned to CPU.
+[m[0;33m[UNILOG][WARNING] xir::Op{name = QuantWrapper__QuantWrapper_DetectionModel_model__Detect_model__Detect_22__Sequential_cv2__ModuleList_0__Conv2d_2__ret_523_sink_transpose_0, type = transpose} has been assigned to CPU.
+[m[0;33m[UNILOG][WARNING] xir::Op{name = QuantWrapper__QuantWrapper_DetectionModel_model__Detect_model__Detect_22__Sequential_cv3__ModuleList_0__Conv2d_2__ret_573_sink_transpose_3, type = transpose} has been assigned to CPU.
+[m[0;33m[UNILOG][WARNING] Subgraph named subgraph_QuantWrapper__QuantWrapper_DetectionModel_model__Detect_model__Detect_22__ret_575_reshaped has been reassigned to cpu.
+[m[0;33m[UNILOG][WARNING] Subgraph named subgraph_QuantWrapper__QuantWrapper_DetectionModel_model__Detect_model__Detect_22__ret_525_reshaped has been reassigned to cpu.
+[m[UNILOG][INFO] Total device subgraph number 12, DPU subgraph number 1
+[UNILOG][INFO] Compile done.
+[UNILOG][INFO] The meta json is saved to "/proj/compiled_relu/meta.json"
+[UNILOG][INFO] The compiled xmodel is saved to "/proj/compiled_relu/pcb_yolov8m_relu.xmodel"
+[UNILOG][INFO] The compiled xmodel's md5sum is abc29440757b5322905eed79444204af, and has been saved to "/proj/compiled_relu/md5sum.txt"
+**************************************************
+* VITIS_AI Compilation - Xilinx Inc.
+**************************************************

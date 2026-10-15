@@ -1,0 +1,8 @@
+{
+    "lib": "libvart-dpu-runner.so",
+    "filename": "pcb_yolov8m_relu_raw.xmodel",
+    "kernel": [
+        "subgraph_QuantWrapper__QuantWrapper_DetectionModel_model__C2f_model__C2f_12__Bottleneck_m__ModuleList_0__Conv_cv1__Conv2d_conv__ret_321"
+    ],
+    "target": "DPUCZDX8G_ISA1_B4096_0101000016010407"
+}
